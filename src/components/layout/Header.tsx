@@ -1,5 +1,5 @@
 import { useState } from "react"
-import logo from "../../public/assets/hotelStar.png"
+import logo from "../../../public/assets/Hotelstar.svg"
 import Menubar from "./Menubar"
 import { IoMenu } from "react-icons/io5"
 

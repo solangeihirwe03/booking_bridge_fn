@@ -10,7 +10,7 @@ const Header = () => {
         setIsActive(!isActive)
     }
     return (
-        <div className="bg-black text-white flex justify-between px-6 w-full items-start md:items-center">
+        <div className="bg-none text-white flex justify-between px-6 w-full items-start md:items-center fixed z-50">
             <div className="flex gap-2 md:text-3xl items-center">
                 <img src={logo} alt="Logo" className="w-16 py-2" />
                 <p className="font-semibold hidden md:block">Booking

@@ -4,7 +4,7 @@ import Footer from "./Footer"
 
 const MainRoute = () => {
   return (
-    <div className="font-jost flex flex-col justify-between w-full">
+    <div className="font-jost flex flex-col justify-between gap-28 w-full">
         <Header/>
         <Outlet/>
         <Footer/>

@@ -8,7 +8,8 @@ export default {
     extend: {
       fontFamily: {
         jost: ["Jost", "sans-serif"],
-        nautigal: ["The Nautigal", "cursive"]
+        nautigal: ["The Nautigal", "cursive"],
+        roboto: ["Roboto", "sans-serif"]
       },
       backgroundImage: {
         "bgImg": `url("/assets/homepage.webp")`

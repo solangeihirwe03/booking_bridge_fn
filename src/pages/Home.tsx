@@ -1,6 +1,11 @@
+import { useState } from "react";
 import hotelItems from "../components/hotels/hotel";
+import { Hotel } from "../utils/hotel";
+import Hotels from "../components/hotels/Hotels";
 
 const Home = () => {
+
+  const [hotels, setHotels] = useState<Hotel[]>(hotelItems)
 
   const displayedHotels = hotelItems.slice(0, 2);
   return (
@@ -34,12 +39,18 @@ const Home = () => {
 
           <p className="pt-4 text-2xl font-light">
             Effortlessly find and book top hotels with <br />
-            Booking Bridge.Your ideal stay is just <br/> a click away.
+            Booking Bridge.Your ideal stay is just <br /> a click away.
           </p>
 
           <button className="bg-[#28A745] text-white px-6 py-2 text-2xl font-roboto mt-7">Find More</button>
 
         </div>
+      </div>
+
+      <div className="flex flex-wrap">
+        {hotels.map(hotel => (
+          <Hotels hotel={hotel} key={hotel.HotelId} />
+        ))}
       </div>
     </>
 

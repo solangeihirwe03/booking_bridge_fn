@@ -1,5 +1,6 @@
+import { Hotel } from "../../utils/hotel"
 
-const hotelItems = [
+const hotelItems: Hotel[] = [
       {
         HotelId: 1,
         HotelName: "Stay For Days Hotel",
@@ -130,7 +131,6 @@ const hotelItems = [
         hotelImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRram_OXJTUPPuf7-3GggamFBY_DrL5Dc9gbAdC-CvtAUyevFEn0a4hsFk-TmB7SbSarks&usqp=CAU",
         Description: "Your home away from home. Brand new fully equipped premium rooms, fast WiFi, full kitchen, washer & dryer, fitness center. Inner courtyard includes water features and outdoor seating. All units include fireplaces and small outdoor balconies. Pets accepted.",
         Description_fr: "Votre maison loin de chez vous. Flambant neuf chambres Premium entièrement équipées, WiFi rapide, cuisine complète, laveuse & sécheuse, centre de fitness. La cour intérieure comprend des points d'eau et des sièges à l'extérieur. Toutes les unités comprennent des cheminées et de petits balcons extérieurs. Animaux acceptés.",
-        Tags: [ "free wifi", "free parking", "24-hour front desk service" ],
         LastRenovationDate: "2020-11-26T00:00:00Z",
         Address: {
           "StreetAddress": "22422 29th Dr SE",

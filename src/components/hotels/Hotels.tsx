@@ -1,21 +1,21 @@
-import React from 'react'
+import React from "react"
+import { Hotel } from "../../utils/hotel"
 
-interface HotelsProps{
-    id: number,
-    hotelName: string,
-    hotelImage: string,
-    country: string,
-    location: string
+interface HotelProps {
+  hotel: Hotel
 }
 
-const Hotels:React.FC<HotelsProps> = ({id, hotelName,hotelImage,country, location}) => {
+
+const Hotels: React.FC<HotelProps> = ({ hotel }) => {
   return (
-    <div>
-        <img src={hotelImage} alt={hotelName} />
-        <p>{hotelName}</p>
-        <p>{country}</p>
-        <p>{location}</p>
-    </div>
+    <>
+      <div key={hotel.HotelId}>
+        <img src={hotel.hotelImage} alt={hotel.HotelName} className="w-80 h-[70vh]"/>
+        <p>{hotel.HotelName}</p>
+        <p>{hotel.Address.Country}</p>
+      </div>
+
+    </>
   )
 }
 

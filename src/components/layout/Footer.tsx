@@ -62,7 +62,7 @@ const Footer = () => {
         <p className="pb-4 text-xl">Get updates, exclusive offers, 
           <br/>and travel tips delivered to your inbox</p>
         <form className="flex gap-1 ">
-          <input type="email" placeholder="Your Email..." className="px-4 py-2 w-[20rem]"/>
+          <input type="email" placeholder="Your Email..." className="px-4 py-2 w-[20rem] border-none outline-none"/>
           <button className="bg-[#28A745] p-1">
             <LiaTelegram fontSize={32}/>
           </button>

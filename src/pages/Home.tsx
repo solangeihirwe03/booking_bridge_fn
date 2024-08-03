@@ -6,6 +6,16 @@ import Hotels from "../components/hotels/Hotels";
 const Home = () => {
 
   const [hotels, setHotels] = useState<Hotel[]>(hotelItems)
+  const [page, setPage] = useState(1);
+
+  const selectPageHandler = (selectedPage: number) => {
+    if (
+      selectedPage >= 1 &&
+      selectedPage !== page &&
+      selectedPage <= hotels.length / 4
+    ) setPage(selectedPage)
+  }
+
 
   const displayedHotels = hotelItems.slice(0, 2);
   return (
@@ -16,7 +26,7 @@ const Home = () => {
           <h1 className="text-white text-8xl font-semibold font-nautigal">Find Your Best Stay</h1>
         </div>
       </div>
-      <div className="p-10 flex justify-evenly items-center">
+      <div className="px-10 flex justify-evenly items-center">
         <div className="relative ">
           <div className="border-t-8 border-r-8 border-[#28A745] w-40 h-40 absolute right-[-6px]"></div>
           <div className="flex py-1.5 gap-9">
@@ -46,12 +56,42 @@ const Home = () => {
 
         </div>
       </div>
+       <h1 className="uppercase text-center text-4xl font-semibold">Our Top Hotels</h1>     
+      {hotels.length && (
+        <div className="flex justify-center flex-col items-center">
 
-      <div className="flex flex-wrap">
-        {hotels.map(hotel => (
-          <Hotels hotel={hotel} key={hotel.HotelId} />
-        ))}
-      </div>
+          {hotels.length && (
+            <div className="flex gap-10">
+              {hotels.slice(page * 4 - 4, page * 4).map((hotel) => {
+                return (
+                  <Hotels hotel={hotel} key={hotel.HotelId} />
+                )
+              })}
+            </div>
+          )}
+          <div className="flex">
+            <button onClick={() => selectPageHandler(page - 1)} className="text-8xl">.</button>
+
+            {
+              [...Array(hotels.length / 4)].map((_, i) => {
+                return (
+                  <span
+                    onClick={() => selectPageHandler(i + 1)}
+                    key={i}
+                    className="text-[#28A745]"
+                  ></span>
+                )
+              })
+            }
+
+            <button
+              onClick={() => selectPageHandler(page + 1)}
+              className="text-8xl text-[#28A745]"
+            >.</button>
+          </div>
+        </div>
+      )
+      }
     </>
 
   )

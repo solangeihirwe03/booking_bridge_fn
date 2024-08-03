@@ -30,7 +30,7 @@ export default {
     function ({ addUtilities }) {
       addUtilities({
         '.bg-overlay': {
-          'background-color': 'rgba(0, 0, 0, 0.3)',
+          'background-color': 'rgba(0, 0, 0, 0.6)',
         }
       })
     }

@@ -2,6 +2,7 @@ import logo from "../../../public/assets/Hotelstar.svg"
 import React from "react"
 import { FaFacebook, FaPinterest, FaSquareXTwitter, FaInstagram } from "react-icons/fa6"
 import { LiaTelegram } from "react-icons/lia";
+import { NavLink } from "react-router-dom";
 
 
 const Footer = () => {
@@ -50,7 +51,11 @@ const Footer = () => {
 
           <div>
             <p>FAQ</p>
-            <p>About Us</p>
+            <NavLink to={"/about"}
+              className="text-white hover:text-[#28A745] transition-colors duration-300"
+            >
+              About Us
+            </NavLink>
             <p>Rooms</p>
             <p>Contact Us</p>
           </div>
@@ -59,12 +64,12 @@ const Footer = () => {
 
       <div className="w-1/3">
         <h1 className="font-semibold text-3xl pb-4">Newsletter</h1>
-        <p className="pb-4 text-xl">Get updates, exclusive offers, 
-          <br/>and travel tips delivered to your inbox</p>
+        <p className="pb-4 text-xl">Get updates, exclusive offers,
+          <br />and travel tips delivered to your inbox</p>
         <form className="flex gap-1 ">
-          <input type="email" placeholder="Your Email..." className="px-4 py-2 w-[20rem] border-none outline-none"/>
+          <input type="email" placeholder="Your Email..." className="px-4 py-2 w-[20rem] border-none outline-none" />
           <button className="bg-[#28A745] p-1">
-            <LiaTelegram fontSize={32}/>
+            <LiaTelegram fontSize={32} />
           </button>
         </form>
       </div>

@@ -12,7 +12,8 @@ export default {
         roboto: ["Roboto", "sans-serif"]
       },
       backgroundImage: {
-        "bgImg": `url("/assets/homepage.webp")`
+        "bgImg": `url("/assets/homepage.webp")`,
+        "about": `url("/assets/about.jpg")`
       },
       opacity: {
         '10': '0.1',

@@ -35,7 +35,6 @@ const Menubar: React.FC<MenuProps> = ({ toogleNav, isOpen }) => {
             
             <li>HOTELS</li>
             <li>ROOMS</li>
-            <li>RESERVATION</li>
             <li>CONTACT US</li>
         </ul>
     )

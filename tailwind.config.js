@@ -13,7 +13,8 @@ export default {
       },
       backgroundImage: {
         "bgImg": `url("/assets/homepage.webp")`,
-        "about": `url("/assets/about.jpg")`
+        "about": `url("/assets/about.jpg")`,
+        "hotel": `url("/assets/wael.jpg")`
       },
       opacity: {
         '10': '0.1',

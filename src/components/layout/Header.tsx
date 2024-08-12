@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import logo from "../../../public/assets/Hotelstar.svg"
 import Menubar from "./Menubar"
-import { IoMenu } from "react-icons/io5"
+import { IoMenu, IoSearch } from "react-icons/io5"
 import { NavLink } from "react-router-dom"
 import 'tailwindcss/tailwind.css';
 
@@ -74,11 +74,22 @@ const Header = () => {
 
                 </li>
 
-                <li>HOTELS</li>
+                <li>
+                    <NavLink to={"/hotel"}
+                        className={({ isActive }) =>
+                            isActive
+                                ? 'border-[#28A745] px-2 py-2 w-24 border-b-4'
+                                : 'text-white hover:border-[#28A745] px-2 py-2 hover:border-b-4 w-24 transition-colors duration-300'
+                        }>
+                        HOTELS
+                    </NavLink>
+                </li>
                 <li>ROOM</li>
                 <li>ROOMS</li>
-                <li>RESERVATION</li>
                 <li>CONTACT US</li>
+                <li>
+                    <IoSearch fontSize={25}/>
+                </li>
             </ul>
         </div>
     )

@@ -14,6 +14,7 @@ const Home = () => {
       selectedPage !== page &&
       selectedPage <= hotels.length / 4
     ) setPage(selectedPage)
+    setHotels(hotelItems)
   }
 
 

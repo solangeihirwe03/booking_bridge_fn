@@ -73,17 +73,6 @@ const Header = () => {
                     </NavLink>
 
                 </li>
-
-                <li>
-                    <NavLink to={"/hotel"}
-                        className={({ isActive }) =>
-                            isActive
-                                ? 'border-[#28A745] px-2 py-2 w-24 border-b-4'
-                                : 'text-white hover:border-[#28A745] px-2 py-2 hover:border-b-4 w-24 transition-colors duration-300'
-                        }>
-                        HOTELS
-                    </NavLink>
-                </li>
                 <li>ROOM</li>
                 <li>ROOMS</li>
                 <li>CONTACT US</li>

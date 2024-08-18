@@ -21,6 +21,7 @@ const hotelItems: Hotel[] = [
         },
         Rooms: [
           {
+            "roomImage": "https://image-tc.galaxy.tf/wijpeg-37i6pj55be26bmok007pmkbkg/serena-kigali-2023-grvw-059-room-6-presidential.jpg?width=684&height=378",
             "Description": "Budget Room, 1 Queen Bed (Cityside)",
             "Description_fr": "Chambre Économique, 1 grand lit (côté ville)",
             "Type": "Budget Room",
@@ -31,6 +32,7 @@ const hotelItems: Hotel[] = [
             "Tags": [ "vcr/dvd" ]
           },
           {
+            "roomImage": "https://image-tc.galaxy.tf/wijpeg-az58279xt5cdgk9cem6kfloma/earlymorning74-header.jpg?width=1198&height=680",
             "Description": "Budget Room, 1 King Bed (Mountain View)",
             "Description_fr": "Chambre Économique, 1 très grand lit (Mountain View)",
             "Type": "Budget Room",
@@ -41,6 +43,7 @@ const hotelItems: Hotel[] = [
             "Tags": [ "vcr/dvd", "jacuzzi tub" ]
           },
           {
+            "roomImage": "https://image-tc.galaxy.tf/wijpeg-k8wcihy6ctx7b6dgvpz6oupv/deluxe-room-3_standard.jpg?crop=89%2C0%2C1423%2C1067&width=1050",
             "Description": "Deluxe Room, 2 Double Beds (City View)",
             "Description_fr": "Chambre Deluxe, 2 lits doubles (vue ville)",
             "Type": "Deluxe Room",
@@ -51,6 +54,7 @@ const hotelItems: Hotel[] = [
             "Tags": [ "suite", "bathroom shower", "coffee maker" ]
           },
           {
+            "roomImage": "https://image-tc.galaxy.tf/wijpeg-16itub9rk27upq61u2v0k84uz/presidential-suite-master-bedroom_standard.jpg?crop=107%2C0%2C1707%2C1280&width=1050",
             "Description": "Standard Room, 1 King Bed (Amenities)",
             "Description_fr": "Chambre Standard, 1 très grand lit (Services)",
             "Type": "Standard Room",
@@ -83,6 +87,7 @@ const hotelItems: Hotel[] = [
         },
         Rooms: [
           {
+            "roomImage": "https://cache.marriott.com/content/dam/marriott-renditions/KGLMC/kglmc-guestroom-0036-hor-clsc.jpg?output-quality=90&interpolation=progressive-bilinear&downsize=562px:366px",
             "Description": "Suite, 1 King Bed (Amenities)",
             "Description_fr": "Suite, 1 très grand lit (Services)",
             "Type": "Suite",
@@ -93,6 +98,7 @@ const hotelItems: Hotel[] = [
             "Tags": [ "coffee maker" ]
           },
           {
+            "roomImage": "https://cache.marriott.com/content/dam/marriott-renditions/KGLMC/kglmc-guestroom-0034-hor-clsc.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1336px:*",
             "Description": "Budget Room, 1 Queen Bed (Amenities)",
             "Description_fr": "Chambre Économique, 1 grand lit (Services)",
             "Type": "Budget Room",
@@ -103,6 +109,7 @@ const hotelItems: Hotel[] = [
             "Tags": [ "coffee maker" ]
           },
           {
+            "roomImage": "https://cache.marriott.com/content/dam/marriott-renditions/KGLMC/kglmc-guestroom-0034-hor-clsc.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1336px:*",
             "Description": "Deluxe Room, 2 Double Beds (Cityside)",
             "Description_fr": "Chambre Deluxe, 2 lits doubles (Cityside)",
             "Type": "Deluxe Room",
@@ -113,6 +120,7 @@ const hotelItems: Hotel[] = [
             "Tags": [ "vcr/dvd", "coffee maker" ]
           },
           {
+            "roomImage":"https://cache.marriott.com/content/dam/marriott-renditions/KGLMC/kglmc-guestroom-0034-hor-clsc.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1336px:*",
             "Description": "Deluxe Room, 1 King Bed (Waterfront View)",
             "Description_fr": "Chambre Deluxe, 1 très grand lit (vue sur le front de mer)",
             "Type": "Deluxe Room",

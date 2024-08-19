@@ -1,4 +1,3 @@
-import hotelImg from "../../public/assets/hotel.jpg"
 import { useState } from "react";
 import { IoCaretDown } from "react-icons/io5";
 import { FaUser } from "react-icons/fa6";
@@ -44,14 +43,7 @@ const Hotel = () => {
   };
   return (
     <>
-      <div className="bg-hotel h-screen  bg-center w-full bg-cover flex items-center justify-center ">
-        <div className="absolute inset-0 bg-opacity-40 bg-overlay"></div>
-        <div className="absolute inset-0 flex items-center justify-center">
-          <h1 className="text-white text-8xl font-medium">Find Your Best Stay</h1>
-        </div>
-      </div>
-
-      <form className="flex border-b-2 items-center pb-6 justify-center">
+      <form className="flex border-b-2 items-center pt-20 pb-6 justify-center">
         <div className="border-r-2 px-6 border-[#6E7A73]">
           <p className="text-3xl text-[#6E7A73]">Check In</p>
           <div className="flex gap-2 items-center">
@@ -110,9 +102,9 @@ const Hotel = () => {
         <h1 className="text-center font-medium text-5xl pb-12">Our Rooms</h1>
         <div>
           <div>
-            <img src={room}/>
+            <img src={hotel.Rooms.roomImage} alt={hotel.Rooms.Description} width={400}/>
             <div>
-              <h1 className="uppercase">serena luxury suite</h1>
+              <h1 className="uppercase">{hotel.Rooms.Description}</h1>
               <div>
                 <p>
                   <FaUser fontSize={25}/>

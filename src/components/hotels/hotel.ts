@@ -29,7 +29,8 @@ const hotelItems: Hotel[] = [
             BedOptions: "1 Queen Bed",
             SleepsCount: 2,
             SmokingAllowed: true,
-            Tags: [ "vcr/dvd" ]
+            Tags: [ "vcr/dvd" ],
+            size: "20sqm"
           },
           {
             roomImage: "https://image-tc.galaxy.tf/wijpeg-az58279xt5cdgk9cem6kfloma/earlymorning74-header.jpg?width=1198&height=680",
@@ -40,7 +41,8 @@ const hotelItems: Hotel[] = [
             BedOptions: "1 King Bed",
             SleepsCount: 2,
             SmokingAllowed: true,
-            Tags: [ "vcr/dvd", "jacuzzi tub" ]
+            Tags: [ "vcr/dvd", "jacuzzi tub" ],
+            size: "30sqm"
           },
           {
             roomImage: "https://image-tc.galaxy.tf/wijpeg-k8wcihy6ctx7b6dgvpz6oupv/deluxe-room-3_standard.jpg?crop=89%2C0%2C1423%2C1067&width=1050",
@@ -51,7 +53,8 @@ const hotelItems: Hotel[] = [
             BedOptions: "2 Double Beds",
             SleepsCount: 2,
             SmokingAllowed: false,
-            Tags: [ "suite", "bathroom shower", "coffee maker" ]
+            Tags: [ "suite", "bathroom shower", "coffee maker" ],
+            size: "50sqm"
           },
           {
             roomImage: "https://image-tc.galaxy.tf/wijpeg-16itub9rk27upq61u2v0k84uz/presidential-suite-master-bedroom_standard.jpg?crop=107%2C0%2C1707%2C1280&width=1050",
@@ -62,7 +65,8 @@ const hotelItems: Hotel[] = [
             BedOptions: "1 King Bed",
             SleepsCount: 2,
             SmokingAllowed: false,
-            Tags: [ "Room Tags", "bathroom shower", "bathroom shower" ]
+            Tags: [ "Room Tags", "bathroom shower", "bathroom shower" ],
+            size: "20sqm"
           }
         ]
       },
@@ -95,7 +99,8 @@ const hotelItems: Hotel[] = [
             BedOptions: "1 King Bed",
             SleepsCount: 2,
             SmokingAllowed: true,
-            Tags: [ "coffee maker" ]
+            Tags: [ "coffee maker" ],
+            size: "30sqm"
           },
           {
             roomImage: "https://cache.marriott.com/content/dam/marriott-renditions/KGLMC/kglmc-guestroom-0034-hor-clsc.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1336px:*",
@@ -106,7 +111,8 @@ const hotelItems: Hotel[] = [
             BedOptions: "1 Queen Bed",
             SleepsCount: 2,
             SmokingAllowed: false,
-            Tags: [ "coffee maker" ]
+            Tags: [ "coffee maker" ],
+            size: "30sqm"
           },
           {
             roomImage: "https://cache.marriott.com/content/dam/marriott-renditions/KGLMC/kglmc-guestroom-0034-hor-clsc.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1336px:*",
@@ -117,7 +123,8 @@ const hotelItems: Hotel[] = [
             BedOptions: "2 Double Beds",
             SleepsCount: 2,
             SmokingAllowed: false,
-            Tags: [ "vcr/dvd", "coffee maker" ]
+            Tags: [ "vcr/dvd", "coffee maker" ],
+            size: "50sqm"
           },
           {
             roomImage:"https://cache.marriott.com/content/dam/marriott-renditions/KGLMC/kglmc-guestroom-0034-hor-clsc.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1336px:*",
@@ -128,7 +135,8 @@ const hotelItems: Hotel[] = [
             BedOptions: "1 King Bed",
             SleepsCount: 2,
             SmokingAllowed: false,
-            Tags: [ "suite", "bathroom shower" ]
+            Tags: [ "suite", "bathroom shower" ],
+            size: "40sqm"
           }
         ]
       },
@@ -161,7 +169,8 @@ const hotelItems: Hotel[] = [
             BedOptions: "1 Queen Bed",
             SleepsCount: 2,
             SmokingAllowed: true,
-            Tags: [ "coffee maker", "tv", "coffee maker" ]
+            Tags: [ "coffee maker", "tv", "coffee maker" ],
+            size: "40sqm"
           },
           {
             roomImage:"https://media.radissonhotels.net/image/radisson-blu-hotel-convention-center-kigali/guest-room/16256-116537-f68943465_4k.jpg?impolicy=Card",
@@ -172,7 +181,8 @@ const hotelItems: Hotel[] = [
             BedOptions: "2 Queen Beds",
             SleepsCount: 4,
             SmokingAllowed: true,
-            Tags: [ "suite", "bathroom shower" ]
+            Tags: [ "suite", "bathroom shower" ],
+            size: "60sqm"
           },
           {
             roomImage: "https://media.radissonhotels.net/image/radisson-blu-hotel-convention-center-kigali/guest-room/16256-116537-f68943495_4k.jpg?impolicy=Card",
@@ -183,7 +193,8 @@ const hotelItems: Hotel[] = [
             BedOptions: "2 Double Beds",
             SleepsCount: 2,
             SmokingAllowed: true,
-            Tags: [ "tv", "tv", "coffee maker" ]
+            Tags: [ "tv", "tv", "coffee maker" ],
+            size: "50sqm"
           },
           {
             roomImage: "https://media.radissonhotels.net/image/radisson-blu-hotel-convention-center-kigali/guest-room/16256-116537-f68942341_4k.jpg?impolicy=GalleryLightboxFullscreen",
@@ -194,7 +205,8 @@ const hotelItems: Hotel[] = [
             BedOptions: "2 Queen Beds",
             SleepsCount: 4,
             SmokingAllowed: false,
-            Tags: [ "vcr/dvd" ]
+            Tags: [ "vcr/dvd" ],
+            size: "70sqm"
           },
         ]
       },
@@ -227,7 +239,8 @@ const hotelItems: Hotel[] = [
             BedOptions: "1 King Bed",
             SleepsCount: 2,
             SmokingAllowed: true,
-            Tags: [ "coffee maker", "suite", "suite" ]
+            Tags: [ "coffee maker", "suite", "suite" ],
+            size: "40sqm"
           },
           {
             roomImage:"https://media.istockphoto.com/id/1938106570/photo/digitally-generated-domestic-bedroom-interior.webp?b=1&s=612x612&w=0&k=20&c=-MEGruoNrZMXH6eREKRcwdnQtV4N--iV8C1N8AfT5qk=",
@@ -238,7 +251,8 @@ const hotelItems: Hotel[] = [
             BedOptions: "1 Queen Bed",
             SleepsCount: 2,
             SmokingAllowed: true,
-            Tags: [ "jacuzzi tub", "coffee maker" ]
+            Tags: [ "jacuzzi tub", "coffee maker" ],
+            size: "40sqm"
           },
           {
             roomImage: "https://media.istockphoto.com/id/2021707621/photo/night-scene-modern-style-luxury-black-master-bedroom-with-city-view-3d-render.webp?b=1&s=612x612&w=0&k=20&c=eh0splv6ZOer4r7_AKXmIeeIIkGiUfIU6xjsWL22XcA=",
@@ -249,7 +263,8 @@ const hotelItems: Hotel[] = [
             BedOptions: "2 Double Beds",
             SleepsCount: 2,
             SmokingAllowed: true,
-            Tags: [ "tv", "tv" ]
+            Tags: [ "tv", "tv" ],
+            size: "60sqm"
           },
           {
             roomImage:"https://media.istockphoto.com/id/1815808691/photo/luxury-bedroom-suite-in-resort-high-rise-hotel-with-cushion.webp?b=1&s=612x612&w=0&k=20&c=X2Dd7kTzaoTnQNI3cHP95d2QVPWTc1fpdFNbil-MnNo=",
@@ -260,7 +275,8 @@ const hotelItems: Hotel[] = [
             BedOptions: "1 Queen Bed",
             SleepsCount: 2,
             SmokingAllowed: false,
-            Tags: [ "vcr/dvd" ]
+            Tags: [ "vcr/dvd" ],
+            size: "40sqm"
           }
         ]
       },
@@ -293,7 +309,8 @@ const hotelItems: Hotel[] = [
             BedOptions: "1 King Bed",
             SleepsCount: 2,
             SmokingAllowed: true,
-            Tags: [ "jacuzzi tub" ]
+            Tags: [ "jacuzzi tub" ],
+            size: "40sqm"
           },
           {
             roomImage: "https://media.istockphoto.com/id/1454697447/photo/black-luxury-modern-retro-style-master-bedroom.webp?b=1&s=612x612&w=0&k=20&c=54vRfrGAplKEBBv4zlbdRdomAoWm5nQiRs7LhJcFDwI=",
@@ -304,7 +321,8 @@ const hotelItems: Hotel[] = [
             BedOptions: "2 Double Beds",
             SleepsCount: 2,
             SmokingAllowed: false,
-            Tags: [ "jacuzzi tub" ]
+            Tags: [ "jacuzzi tub" ],
+            size: "40sqm"
           },
           {
             roomImage: "https://plus.unsplash.com/premium_photo-1675616563084-63d1f129623d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aG90ZWwlMjByb29tfGVufDB8fDB8fHww",
@@ -315,7 +333,8 @@ const hotelItems: Hotel[] = [
             BedOptions: "2 Queen Beds",
             SleepsCount: 4,
             SmokingAllowed: true,
-            Tags: [ "Room Tags", "jacuzzi tub", "bathroom shower" ]
+            Tags: [ "Room Tags", "jacuzzi tub", "bathroom shower" ],
+            size: "40sqm"
           },
           {
             roomImage: "https://plus.unsplash.com/premium_photo-1661964402307-02267d1423f5?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -326,7 +345,8 @@ const hotelItems: Hotel[] = [
             BedOptions: "2 Double Beds",
             SleepsCount: 2,
             SmokingAllowed: true,
-            Tags: [ "tv", "suite", "vcr/dvd" ]
+            Tags: [ "tv", "suite", "vcr/dvd" ],
+            size: "60sqm"
           }
         ]
       },
@@ -358,7 +378,8 @@ const hotelItems: Hotel[] = [
             BedOptions: "1 King Bed",
             SleepsCount: 2,
             SmokingAllowed: false,
-            Tags: [ "suite", "tv" ]
+            Tags: [ "suite", "tv" ],
+            size: "40sqm"
           },
           {
             roomImage: "https://image-tc.galaxy.tf/wijpeg-1n5eqdlcffz6nizfh6dmrza92/2_standard.jpg?crop=307%2C0%2C1307%2C980&width=400",
@@ -369,7 +390,8 @@ const hotelItems: Hotel[] = [
             BedOptions: "2 Queen Beds",
             SleepsCount: 4,
             SmokingAllowed: true,
-            Tags: [ "vcr/dvd", "coffee maker", "jacuzzi tub" ]
+            Tags: [ "vcr/dvd", "coffee maker", "jacuzzi tub" ],
+            size: "60sqm"
           },
           {
             roomImage: "https://image-tc.galaxy.tf/wijpeg-w3ns2nlqceeg5rutqz87cf76/11_standard.jpg?crop=307%2C0%2C1307%2C980&width=372",
@@ -380,7 +402,8 @@ const hotelItems: Hotel[] = [
             BedOptions: "1 Queen Bed",
             SleepsCount: 2,
             SmokingAllowed: false,
-            Tags: [ "bathroom shower" ]
+            Tags: [ "bathroom shower" ],
+            size: "30sqm"
           },
           {
             roomImage: "https://image-tc.galaxy.tf/wijpeg-w3ns2nlqceeg5rutqz87cf76/11_standard.jpg?crop=307%2C0%2C1307%2C980&width=372",
@@ -391,7 +414,8 @@ const hotelItems: Hotel[] = [
             BedOptions: "2 Double Beds",
             SleepsCount: 2,
             SmokingAllowed: false,
-            Tags: [ "tv", "jacuzzi tub", "suite" ]
+            Tags: [ "tv", "jacuzzi tub", "suite" ],
+            size: "70sqm"
           }
         ]
       },
@@ -423,7 +447,8 @@ const hotelItems: Hotel[] = [
             BedOptions: "1 King Bed",
             SleepsCount: 2,
             SmokingAllowed: false,
-            Tags: [ "tv", "vcr/dvd", "suite" ]
+            Tags: [ "tv", "vcr/dvd", "suite" ],
+            size: "40sqm"
           },
           {
             roomImage: "https://greathotelkiyovu.rw/images/room-2.jpg",
@@ -434,7 +459,8 @@ const hotelItems: Hotel[] = [
             BedOptions: "2 Double Beds",
             SleepsCount: 2,
             SmokingAllowed: false,
-            Tags: [ "tv" ]
+            Tags: [ "tv" ],
+            size: "70sqm"
           },
           {
             roomImage: "https://greathotelkiyovu.rw/images/room-4.jpg",
@@ -445,7 +471,8 @@ const hotelItems: Hotel[] = [
             BedOptions: "1 King Bed",
             SleepsCount: 2,
             SmokingAllowed: false,
-            Tags: [ "coffee maker", "bathroom shower", "vcr/dvd" ]
+            Tags: [ "coffee maker", "bathroom shower", "vcr/dvd" ],
+            size: "40sqm"
           },
           {
             roomImage: "https://greathotelkiyovu.rw/images/room-6.jpg",
@@ -456,7 +483,8 @@ const hotelItems: Hotel[] = [
             BedOptions: "1 King Bed",
             SleepsCount: 2,
             SmokingAllowed: false,
-            Tags: [ "bathroom shower", "vcr/dvd" ]
+            Tags: [ "bathroom shower", "vcr/dvd" ],
+            size: "40sqm"
           }
         ]
       },
@@ -488,7 +516,8 @@ const hotelItems: Hotel[] = [
             BedOptions: "2 Queen Beds",
             SleepsCount: 4,
             SmokingAllowed: false,
-            Tags: [ "suite" ]
+            Tags: [ "suite" ],
+            size: "40sqm"
           },
           {
             roomImage: "https://cf.bstatic.com/xdata/images/hotel/square600/54362447.webp?k=b08e98a2e1a29ef40c5e94cb4de5d5c4dcefc326255942e06005e6c40dd96cf8&o=",
@@ -499,7 +528,8 @@ const hotelItems: Hotel[] = [
             BedOptions: "1 King Bed",
             SleepsCount: 2,
             SmokingAllowed: true,
-            Tags: [ "suite" ]
+            Tags: [ "suite" ],
+            size: "30sqm"
           },
           {
             roomImage:"https://cf.bstatic.com/xdata/images/hotel/square600/538473685.webp?k=727cc4d42ec92dc113ee72e2a586aa4a3fea115e9f84bbf336e501e2259d8f64&o=",
@@ -510,7 +540,8 @@ const hotelItems: Hotel[] = [
             BedOptions: "2 Double Beds",
             SleepsCount: 2,
             SmokingAllowed: true,
-            Tags: [ "suite", "vcr/dvd" ]
+            Tags: [ "suite", "vcr/dvd" ],
+            size: "60sqm"
           },
           {
             roomImage: "https://cf.bstatic.com/xdata/images/hotel/square600/77947372.webp?k=de54d8fa06de3c21be0172daa35c96587f5b2ff6e0435593c3e9f4abbfbe6b37&o=",
@@ -521,7 +552,8 @@ const hotelItems: Hotel[] = [
             BedOptions: "1 Queen Bed",
             SleepsCount: 2,
             SmokingAllowed: true,
-            Tags: [ "vcr/dvd" ]
+            Tags: [ "vcr/dvd" ],
+            size: "40sqm"
           }
         ]
       }

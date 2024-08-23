@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { IoCaretDown } from "react-icons/io5";
 import { FaUser } from "react-icons/fa6";
-import room from "../../public/assets/interior-hotel-room-260nw-264444794.webp"
 import { useLocation, useParams } from "react-router-dom";
 import hotelItems from "../components/hotels/hotel";
+import frame from "../../public/assets/Frame.svg"
 
 interface DateObject {
   date: Date;
@@ -27,12 +27,12 @@ const generateDates = (): DateObject[] => {
 };
 
 const Hotel = () => {
-  const {id} = useParams()
+  const { id } = useParams()
   if (!id) {
     return <div>Hotel ID not found</div>;
   }
   const location = useLocation()
-  const hotel = location.state.hotel || hotelItems.find(hotel=> hotel.HotelId === parseInt(id))
+  const hotel = location.state?.hotel || hotelItems.find(hotel => hotel.HotelId === parseInt(id))
   const date = generateDates()
 
   const [selectedDate, setSelectedDate] = useState<Date | null>(null);
@@ -42,6 +42,7 @@ const Hotel = () => {
     setSelectedDate(selectedDate);
   };
   return (
+
     <>
       <form className="flex border-b-2 items-center pt-20 pb-6 justify-center">
         <div className="border-r-2 px-6 border-[#6E7A73]">
@@ -100,22 +101,22 @@ const Hotel = () => {
 
       <div className="flex justify-center flex-col items-center">
         <h1 className="text-center font-medium text-5xl pb-12">Our Rooms</h1>
-        <div>
-          <div>
-            <img src={hotel.Rooms.roomImage} alt={hotel.Rooms.Description} width={400}/>
-            <div>
-              <h1 className="uppercase">{hotel.Rooms.Description}</h1>
+        <div className="flex justify-center flex-col gap-24">
+          {hotel?.Rooms.map((room: any, index: number) => (
+            <div key={index} className="flex gap-20 items-center">
+              <img src={room.roomImage} alt={room.Description} className="w-[50vw] h-[50vh] max-w-md" />
               <div>
-                <p>
-                  <FaUser fontSize={25}/>
-                </p>
-                <p>a</p>
+                <h2 className="uppercase text-2xl mt-4 font-semibold">{room.Description}</h2>
+                <div className="flex items-center gap-5 mt-2 text-2xl">
+                  <p>{room.BedOptions}</p>
+                  <img src={frame} />
+                  <p>{room.size}</p>
+                </div>
+                <button className="text-xl bg-[#28A745] px-6 py-2.5 text-white font-medium rounded-lg mt-5">Book Now</button>
               </div>
             </div>
-          </div>
-          <div></div>
+          ))}
         </div>
-        <div></div>
       </div>
     </>
   )

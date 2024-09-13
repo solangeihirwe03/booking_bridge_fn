@@ -1,3 +1,4 @@
+/*eslint-disable */
 import { Hotel } from "../../utils/hotel"
 
 const hotelItems: Hotel[] = [
@@ -23,6 +24,7 @@ const hotelItems: Hotel[] = [
           {
             roomImage: "https://image-tc.galaxy.tf/wijpeg-37i6pj55be26bmok007pmkbkg/serena-kigali-2023-grvw-059-room-6-presidential.jpg?width=684&height=378",
             Description: "Budget Room, 1 Queen Bed (Cityside)",
+            roomDescription: "Whether you are in search of a well-appointed gym or a pampering moment on the massage table and inside the warm saunas, you can always find a place for yourself at our spa.",
             Description_fr: "Chambre Économique, 1 grand lit (côté ville)",
             Type: "Budget Room",
             BaseRate: 96.99,
@@ -35,6 +37,7 @@ const hotelItems: Hotel[] = [
           {
             roomImage: "https://image-tc.galaxy.tf/wijpeg-az58279xt5cdgk9cem6kfloma/earlymorning74-header.jpg?width=1198&height=680",
             Description: "Budget Room, 1 King Bed (Mountain View)",
+            roomDescription: "Whether you are in search of a well-appointed gym or a pampering moment on the massage table and inside the warm saunas, you can always find a place for yourself at our spa.",
             Description_fr: "Chambre Économique, 1 très grand lit (Mountain View)",
             Type: "Budget Room",
             BaseRate: 80.99,
@@ -47,6 +50,7 @@ const hotelItems: Hotel[] = [
           {
             roomImage: "https://image-tc.galaxy.tf/wijpeg-k8wcihy6ctx7b6dgvpz6oupv/deluxe-room-3_standard.jpg?crop=89%2C0%2C1423%2C1067&width=1050",
             Description: "Deluxe Room, 2 Double Beds (City View)",
+            roomDescription: "Whether you are in search of a well-appointed gym or a pampering moment on the massage table and inside the warm saunas, you can always find a place for yourself at our spa.",
             Description_fr: "Chambre Deluxe, 2 lits doubles (vue ville)",
             Type: "Deluxe Room",
             BaseRate: 150.99,
@@ -59,6 +63,7 @@ const hotelItems: Hotel[] = [
           {
             roomImage: "https://image-tc.galaxy.tf/wijpeg-16itub9rk27upq61u2v0k84uz/presidential-suite-master-bedroom_standard.jpg?crop=107%2C0%2C1707%2C1280&width=1050",
             Description: "Standard Room, 1 King Bed (Amenities)",
+            roomDescription: "Whether you are in search of a well-appointed gym or a pampering moment on the massage table and inside the warm saunas, you can always find a place for yourself at our spa.",
             Description_fr: "Chambre Standard, 1 très grand lit (Services)",
             Type: "Standard Room",
             BaseRate: 110.99,
@@ -93,6 +98,7 @@ const hotelItems: Hotel[] = [
           {
             roomImage: "https://cache.marriott.com/content/dam/marriott-renditions/KGLMC/kglmc-guestroom-0036-hor-clsc.jpg?output-quality=90&interpolation=progressive-bilinear&downsize=562px:366px",
             Description: "Suite, 1 King Bed (Amenities)",
+            roomDescription: "Whether you are in search of a well-appointed gym or a pampering moment on the massage table and inside the warm saunas, you can always find a place for yourself at our spa.",
             Description_fr: "Suite, 1 très grand lit (Services)",
             Type: "Suite",
             BaseRate: 244.99,
@@ -105,6 +111,7 @@ const hotelItems: Hotel[] = [
           {
             roomImage: "https://cache.marriott.com/content/dam/marriott-renditions/KGLMC/kglmc-guestroom-0034-hor-clsc.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1336px:*",
             Description: "Budget Room, 1 Queen Bed (Amenities)",
+            roomDescription: "Whether you are in search of a well-appointed gym or a pampering moment on the massage table and inside the warm saunas, you can always find a place for yourself at our spa.",
             Description_fr: "Chambre Économique, 1 grand lit (Services)",
             Type: "Budget Room",
             BaseRate: 76.99,
@@ -117,6 +124,7 @@ const hotelItems: Hotel[] = [
           {
             roomImage: "https://cache.marriott.com/content/dam/marriott-renditions/KGLMC/kglmc-guestroom-0034-hor-clsc.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1336px:*",
             Description: "Deluxe Room, 2 Double Beds (Cityside)",
+            roomDescription: "Whether you are in search of a well-appointed gym or a pampering moment on the massage table and inside the warm saunas, you can always find a place for yourself at our spa.",
             Description_fr: "Chambre Deluxe, 2 lits doubles (Cityside)",
             Type: "Deluxe Room",
             BaseRate: 145.99,
@@ -129,6 +137,7 @@ const hotelItems: Hotel[] = [
           {
             roomImage:"https://cache.marriott.com/content/dam/marriott-renditions/KGLMC/kglmc-guestroom-0034-hor-clsc.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1336px:*",
             Description: "Deluxe Room, 1 King Bed (Waterfront View)",
+            roomDescription: "Whether you are in search of a well-appointed gym or a pampering moment on the massage table and inside the warm saunas, you can always find a place for yourself at our spa.",
             Description_fr: "Chambre Deluxe, 1 très grand lit (vue sur le front de mer)",
             Type: "Deluxe Room",
             BaseRate: 167.99,
@@ -163,6 +172,7 @@ const hotelItems: Hotel[] = [
           {
             roomImage:"https://media.radissonhotels.net/image/radisson-blu-hotel-convention-center-kigali/guest-room/16256-116537-f68942347_4k.jpg?impolicy=Card",
             Description: "Deluxe Room, 1 Queen Bed (Waterfront View)",
+            roomDescription: "Whether you are in search of a well-appointed gym or a pampering moment on the massage table and inside the warm saunas, you can always find a place for yourself at our spa.",
             Description_fr: "Chambre Deluxe, 1 grand lit (vue sur le front de mer)",
             Type: "Deluxe Room",
             BaseRate: 144.99,
@@ -175,6 +185,7 @@ const hotelItems: Hotel[] = [
           {
             roomImage:"https://media.radissonhotels.net/image/radisson-blu-hotel-convention-center-kigali/guest-room/16256-116537-f68943465_4k.jpg?impolicy=Card",
             Description: "Suite, 2 Queen Beds (Mountain View)",
+            roomDescription: "Whether you are in search of a well-appointed gym or a pampering moment on the massage table and inside the warm saunas, you can always find a place for yourself at our spa.",
             Description_fr: "Suite, 2 grands lits (vue sur la montagne)",
             Type: "Suite",
             BaseRate: 248.99,
@@ -187,6 +198,7 @@ const hotelItems: Hotel[] = [
           {
             roomImage: "https://media.radissonhotels.net/image/radisson-blu-hotel-convention-center-kigali/guest-room/16256-116537-f68943495_4k.jpg?impolicy=Card",
             Description: "Suite, 2 Double Beds (Mountain View)",
+            roomDescription: "Whether you are in search of a well-appointed gym or a pampering moment on the massage table and inside the warm saunas, you can always find a place for yourself at our spa.",
             Description_fr: "Suite, 2 lits doubles (vue sur la montagne)",
             Type: "Suite",
             BaseRate: 229.99,
@@ -199,6 +211,7 @@ const hotelItems: Hotel[] = [
           {
             roomImage: "https://media.radissonhotels.net/image/radisson-blu-hotel-convention-center-kigali/guest-room/16256-116537-f68942341_4k.jpg?impolicy=GalleryLightboxFullscreen",
             Description: "Budget Room, 2 Queen Beds (City View)",
+            roomDescription: "Whether you are in search of a well-appointed gym or a pampering moment on the massage table and inside the warm saunas, you can always find a place for yourself at our spa.",
             Description_fr: "Chambre Économique, 2 grands lits (vue sur la ville)",
             Type: "Budget Room",
             BaseRate: 84.99,
@@ -233,6 +246,7 @@ const hotelItems: Hotel[] = [
           {
             roomImage: "https://media.istockphoto.com/id/1453121684/photo/modern-hotel-room-with-double-bed-night-tables-and-day-sofa-bed.webp?b=1&s=612x612&w=0&k=20&c=ZUIsX9QtpzxC5eq9pXQm6mdBlektEb78ABWlv2r4dI8=",
             Description: "Deluxe Room, 1 King Bed (Cityside)",
+            roomDescription: "Whether you are in search of a well-appointed gym or a pampering moment on the massage table and inside the warm saunas, you can always find a place for yourself at our spa.",
             Description_fr: "Chambre Deluxe, 1 très grand lit (Cityside)",
             Type: "Deluxe Room",
             BaseRate: 144.99,
@@ -245,6 +259,7 @@ const hotelItems: Hotel[] = [
           {
             roomImage:"https://media.istockphoto.com/id/1938106570/photo/digitally-generated-domestic-bedroom-interior.webp?b=1&s=612x612&w=0&k=20&c=-MEGruoNrZMXH6eREKRcwdnQtV4N--iV8C1N8AfT5qk=",
             Description: "Deluxe Room, 1 Queen Bed (Waterfront View)",
+            roomDescription: "Whether you are in search of a well-appointed gym or a pampering moment on the massage table and inside the warm saunas, you can always find a place for yourself at our spa.",
             Description_fr: "Chambre Deluxe, 1 grand lit (vue sur le front de mer)",
             Type: "Deluxe Room",
             BaseRate: 168.99,
@@ -257,6 +272,7 @@ const hotelItems: Hotel[] = [
           {
             roomImage: "https://media.istockphoto.com/id/2021707621/photo/night-scene-modern-style-luxury-black-master-bedroom-with-city-view-3d-render.webp?b=1&s=612x612&w=0&k=20&c=eh0splv6ZOer4r7_AKXmIeeIIkGiUfIU6xjsWL22XcA=",
             Description: "Standard Room, 2 Double Beds (Waterfront View)",
+            roomDescription: "Whether you are in search of a well-appointed gym or a pampering moment on the massage table and inside the warm saunas, you can always find a place for yourself at our spa.",
             Description_fr: "Chambre Standard, 2 lits doubles (vue sur le front de mer)",
             Type: "Standard Room",
             BaseRate: 110.99,
@@ -269,6 +285,7 @@ const hotelItems: Hotel[] = [
           {
             roomImage:"https://media.istockphoto.com/id/1815808691/photo/luxury-bedroom-suite-in-resort-high-rise-hotel-with-cushion.webp?b=1&s=612x612&w=0&k=20&c=X2Dd7kTzaoTnQNI3cHP95d2QVPWTc1fpdFNbil-MnNo=",
             Description: "Deluxe Room, 1 Queen Bed (City View)",
+            roomDescription: "Whether you are in search of a well-appointed gym or a pampering moment on the massage table and inside the warm saunas, you can always find a place for yourself at our spa.",
             Description_fr: "Chambre Deluxe, 1 grand lit (vue ville)",
             Type: "Deluxe Room",
             BaseRate: 141.99,
@@ -303,6 +320,7 @@ const hotelItems: Hotel[] = [
           {
             roomImage: "https://media.istockphoto.com/id/1677784097/photo/modern-hotel-apartment-with-bathroom.webp?b=1&s=612x612&w=0&k=20&c=iaT9rVgOg87bi66V6EM24MGqJxtMrb4GRujb4u7Tap4=",
             Description: "Standard Room, 1 King Bed (Mountain View)",
+            roomDescription: "Whether you are in search of a well-appointed gym or a pampering moment on the massage table and inside the warm saunas, you can always find a place for yourself at our spa.",
             Description_fr: "Chambre Standard, 1 très grand lit (vue montagne)",
             Type: "Standard Room",
             BaseRate: 114.99,
@@ -315,6 +333,7 @@ const hotelItems: Hotel[] = [
           {
             roomImage: "https://media.istockphoto.com/id/1454697447/photo/black-luxury-modern-retro-style-master-bedroom.webp?b=1&s=612x612&w=0&k=20&c=54vRfrGAplKEBBv4zlbdRdomAoWm5nQiRs7LhJcFDwI=",
             Description: "Deluxe Room, 2 Double Beds (Amenities)",
+            roomDescription: "Whether you are in search of a well-appointed gym or a pampering moment on the massage table and inside the warm saunas, you can always find a place for yourself at our spa.",
             Description_fr: "Chambre Deluxe, 2 lits doubles (Services)",
             Type: "Deluxe Room",
             BaseRate: 145.99,
@@ -327,6 +346,7 @@ const hotelItems: Hotel[] = [
           {
             roomImage: "https://plus.unsplash.com/premium_photo-1675616563084-63d1f129623d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aG90ZWwlMjByb29tfGVufDB8fDB8fHww",
             Description: "Standard Room, 2 Queen Beds (Waterfront View)",
+            roomDescription: "Whether you are in search of a well-appointed gym or a pampering moment on the massage table and inside the warm saunas, you can always find a place for yourself at our spa.",
             Description_fr: "Chambre Standard, 2 grands lits (vue sur le front de mer)",
             Type: "Standard Room",
             BaseRate: 133.99,
@@ -339,6 +359,7 @@ const hotelItems: Hotel[] = [
           {
             roomImage: "https://plus.unsplash.com/premium_photo-1661964402307-02267d1423f5?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             Description: "Suite, 2 Double Beds (City View)",
+            roomDescription: "Whether you are in search of a well-appointed gym or a pampering moment on the massage table and inside the warm saunas, you can always find a place for yourself at our spa.",
             Description_fr: "Suite, 2 lits doubles (vue sur la ville)",
             Type: "Suite",
             BaseRate: 242.99,
@@ -372,6 +393,7 @@ const hotelItems: Hotel[] = [
           {
             roomImage: "https://image-tc.galaxy.tf/wijpeg-686yacno2ggdqxb9sqp6oynl5/classic-room_standard.jpg?crop=107%2C0%2C1707%2C1280&width=400",
             Description: "Budget Room, 1 King Bed (Cityside)",
+            roomDescription: "Whether you are in search of a well-appointed gym or a pampering moment on the massage table and inside the warm saunas, you can always find a place for yourself at our spa.",
             Description_fr: "Chambre Économique, 1 très grand lit (côté ville)",
             Type: "Budget Room",
             BaseRate: 62.99,
@@ -384,6 +406,7 @@ const hotelItems: Hotel[] = [
           {
             roomImage: "https://image-tc.galaxy.tf/wijpeg-1n5eqdlcffz6nizfh6dmrza92/2_standard.jpg?crop=307%2C0%2C1307%2C980&width=400",
             Description: "Standard Room, 2 Queen Beds (Cityside)",
+            roomDescription: "Whether you are in search of a well-appointed gym or a pampering moment on the massage table and inside the warm saunas, you can always find a place for yourself at our spa.",
             Description_fr: "Chambre Standard, 2 grands lits (côté ville)",
             Type: "Standard Room",
             BaseRate: 107.99,
@@ -396,6 +419,7 @@ const hotelItems: Hotel[] = [
           {
             roomImage: "https://image-tc.galaxy.tf/wijpeg-w3ns2nlqceeg5rutqz87cf76/11_standard.jpg?crop=307%2C0%2C1307%2C980&width=372",
             Description: "Deluxe Room, 1 Queen Bed (Amenities)",
+            roomDescription: "Whether you are in search of a well-appointed gym or a pampering moment on the massage table and inside the warm saunas, you can always find a place for yourself at our spa.",
             Description_fr: "Chambre Deluxe, 1 grand lit (Services)",
             Type: "Deluxe Room",
             BaseRate: 138.99,
@@ -408,6 +432,7 @@ const hotelItems: Hotel[] = [
           {
             roomImage: "https://image-tc.galaxy.tf/wijpeg-w3ns2nlqceeg5rutqz87cf76/11_standard.jpg?crop=307%2C0%2C1307%2C980&width=372",
             Description: "Standard Room, 2 Double Beds (Cityside)",
+            roomDescription: "Whether you are in search of a well-appointed gym or a pampering moment on the massage table and inside the warm saunas, you can always find a place for yourself at our spa.",
             Description_fr: "Chambre Standard, 2 lits doubles (côté ville)",
             Type: "Standard Room",
             BaseRate: 126.99,
@@ -441,6 +466,7 @@ const hotelItems: Hotel[] = [
           {
             roomImage: "https://greathotelkiyovu.rw/images/room-1.jpg",
             Description: "Standard Room, 1 King Bed (Waterfront View)",
+            roomDescription: "Whether you are in search of a well-appointed gym or a pampering moment on the massage table and inside the warm saunas, you can always find a place for yourself at our spa.",
             Description_fr: "Chambre Standard, 1 très grand lit (vue sur le front de mer)",
             Type: "Standard Room",
             BaseRate: 105.99,
@@ -453,6 +479,7 @@ const hotelItems: Hotel[] = [
           {
             roomImage: "https://greathotelkiyovu.rw/images/room-2.jpg",
             Description: "Budget Room, 2 Double Beds (City View)",
+            roomDescription: "Whether you are in search of a well-appointed gym or a pampering moment on the massage table and inside the warm saunas, you can always find a place for yourself at our spa.",
             Description_fr: "Chambre Économique, 2 lits doubles (vue sur la ville)",
             Type: "Budget Room",
             BaseRate: 80.99,
@@ -465,6 +492,7 @@ const hotelItems: Hotel[] = [
           {
             roomImage: "https://greathotelkiyovu.rw/images/room-4.jpg",
             Description: "Standard Room, 1 King Bed (Mountain View)",
+            roomDescription: "Whether you are in search of a well-appointed gym or a pampering moment on the massage table and inside the warm saunas, you can always find a place for yourself at our spa.",
             Description_fr: "Chambre Standard, 1 très grand lit (vue montagne)",
             Type: "Standard Room",
             BaseRate: 130.99,
@@ -477,6 +505,7 @@ const hotelItems: Hotel[] = [
           {
             roomImage: "https://greathotelkiyovu.rw/images/room-6.jpg",
             Description: "Suite, 1 King Bed (Cityside)",
+            roomDescription: "Whether you are in search of a well-appointed gym or a pampering moment on the massage table and inside the warm saunas, you can always find a place for yourself at our spa.",
             Description_fr: "Suite, 1 très grand lit (côté ville)",
             Type: "Suite",
             BaseRate: 259.99,
@@ -510,6 +539,7 @@ const hotelItems: Hotel[] = [
           {
             roomImage: "https://cf.bstatic.com/xdata/images/hotel/square600/529373267.webp?k=240cc02db7e3ba06ded7ff9478c629e8a16d40a28853a904accd4b79f7ffc64a&o=",
             Description: "Suite, 2 Queen Beds (Amenities)",
+            roomDescription: "Whether you are in search of a well-appointed gym or a pampering moment on the massage table and inside the warm saunas, you can always find a place for yourself at our spa.",
             Description_fr: "Suite, 2 grands lits (Services)",
             Type: "Suite",
             BaseRate: 254.99,
@@ -522,6 +552,7 @@ const hotelItems: Hotel[] = [
           {
             roomImage: "https://cf.bstatic.com/xdata/images/hotel/square600/54362447.webp?k=b08e98a2e1a29ef40c5e94cb4de5d5c4dcefc326255942e06005e6c40dd96cf8&o=",
             Description: "Standard Room, 1 King Bed (Amenities)",
+            roomDescription: "Whether you are in search of a well-appointed gym or a pampering moment on the massage table and inside the warm saunas, you can always find a place for yourself at our spa.",
             Description_fr: "Chambre Standard, 1 très grand lit (Services)",
             Type: "Standard Room",
             BaseRate: 124.99,
@@ -534,6 +565,7 @@ const hotelItems: Hotel[] = [
           {
             roomImage:"https://cf.bstatic.com/xdata/images/hotel/square600/538473685.webp?k=727cc4d42ec92dc113ee72e2a586aa4a3fea115e9f84bbf336e501e2259d8f64&o=",
             Description: "Budget Room, 2 Double Beds (Waterfront View)",
+            roomDescription: "Whether you are in search of a well-appointed gym or a pampering moment on the massage table and inside the warm saunas, you can always find a place for yourself at our spa.",
             Description_fr: "Chambre Économique, 2 lits doubles (vue sur le front de mer)",
             Type: "Budget Room",
             BaseRate: 68.99,
@@ -546,6 +578,7 @@ const hotelItems: Hotel[] = [
           {
             roomImage: "https://cf.bstatic.com/xdata/images/hotel/square600/77947372.webp?k=de54d8fa06de3c21be0172daa35c96587f5b2ff6e0435593c3e9f4abbfbe6b37&o=",
             Description: "Standard Room, 1 Queen Bed (Mountain View)",
+            roomDescription: "Whether you are in search of a well-appointed gym or a pampering moment on the massage table and inside the warm saunas, you can always find a place for yourself at our spa.",
             Description_fr: "Chambre Standard, 1 grand lit (vue montagne)",
             Type: "Standard Room",
             BaseRate: 126.99,

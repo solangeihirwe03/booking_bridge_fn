@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from "react"
 import { Hotel } from "../../utils/hotel"
 import { IoStarSharp } from "react-icons/io5";

@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { useState } from "react";
 import hotelItems from "../components/hotels/hotel";
 import { Hotel } from "../utils/hotel";

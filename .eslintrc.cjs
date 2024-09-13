@@ -17,11 +17,6 @@ module.exports = {
     ],
     'css-modules/no-undef-class': 'off',
     'css-modules/no-unused-class': 'off',
-    'css-modules/no-unknown-at-rules': [
-      'error',
-      {
-        ignoreAtRules: ['tailwind', 'apply', 'variants', 'responsive', 'screen', 'layer']
-      }
-    ]
+    "css-modules/no-unknown-at-rules": "error"
   },
 }
